@@ -3,7 +3,8 @@
 
 
 
-#1.0: Introduction
+# 1.0: Introduction
+
 Our design implements a phone application aimed to aid charity organizations in efficiently acquiring most needed donations. Our idea is to create an interface that connects organizations and the public, to allow people to view what requirements the organization needs. 
 
 
@@ -21,10 +22,10 @@ The aim of this application is for organizations to register their information, 
 
 We want to set up this application in a way that makes it very easy for the general public to access this app and find this information. With what is required being given by the organization, people will be able to more accurately help various organizations, instead only donating to a choice charity, or always buying the same products to donate. 
 The app will be composed of two different interfaces, one for the general public which will list all the availably registered organizations that then list their requirements. The second interface will be for charities. They will also have access to the same information as the general public, however they have the option of changing their information that they enter upon registration. 
-#2.0: Project Design
+# 2.0: Project Design
 
 
-#2.1: First Iteration
+# 2.1: First Iteration
 
 
 	Our first steps for our application will be to create the server and database that will house the information stored. The database will contain all registered information, meaning the information inputted by charities in order to register. This will include their own description, links to their webpage, their list of current necessities as well as log in credentials. 
@@ -37,7 +38,7 @@ Since our main focus for this first iteration is solely the backbone of the appl
 This page will have a section for organizations to either choose to register or log in. There will also be a registration or log in for the general public, as well as a continue as guest option. The interfaces for the charities and public will not be shown, but any of these logs in buttons will lead to a frequently asked questions page of our application, which will be apart of the final design. 
 
 
-#2.2: Final Demo
+# 2.2: Final Demo
 
 
 For our final demo, after the back-end database has been set up in our first iteration. This will then be time to design and fully implement the front-end user interface. We will decide on the logo, app icon, and how each page of the app is laid out. There will be two separate interfaces, one for the general public / restaurants and one for the charity organization. 
@@ -46,7 +47,7 @@ Usually if someone wants to donate to an organization, the process is calling up
 Our final demo will show this process in an IOS app. We have also set up a time during midterm break to meet with bridges to hope’s manager to get feedback on what will be the most helpful to them as a donation app. Tailoring the app towards the charities experience will positively impact our design and we are open to changing the design based on the advice he provides.  
 
 
-#2.3: Future Ideas
+# 2.3: Future Ideas
 
 
 Our idea for this application originated with the idea of joining charities with restaurants as a mean to donate left over food to reduce waste and hunger collaboratively. This idea requires more investigation and collaboration with restaurants, however as an addition to our current app we considered adding a restaurant registration as well. 
@@ -61,8 +62,8 @@ As well an in-app payment feature could be implemented, as to give people anothe
 In addition to the information page of each charity, charities can also have the ability to post to a media feed linked with their account. Each organization page would have their general information, a list of their requirements, and then additionally their media feed. This could act as an extra way to spread word of charity events or donation goals, all accessible in the one location. Since people can receive notifications of chosen charities, these notifications would apply to the feed of the charity as well, informing people of anything that is new with the organization. 
 
 
-#3.0: Conclusions
+# 3.0: Conclusions
 
 
-	Canada is among one of the largest food wasters on the plant. More than 2.2 million tonnes of edible food is wasted each year in Canada alone. In addition to economic costs (costing Canada an excess of $17 billion), food waste has substantial environmental impacts. This waste is due to many different events, the transport of food from farm to supermarket being number one (including the supermarket throwing away misshapen food), fish being caught and thrown back, produce being left in the field due to labour shortages, and consumers buying food and throwing away surplus, to name a few. Grocery stores on average throw away 43 billion pounds of food each year, and the average restaurant throws away 1.5% of their food daily (missing out on tax savings that could be earned from donations). A simple app solution to re-route the waste from restaurants and grocery stores may not provide a complete solution to this major issue, but it could be a steppingstone in the right direction. At the very least, providing awareness on these facts and statistics, and offering the information of what the food bank organizations are needing during different times of the year.
+Canada is among one of the largest food wasters on the plant. More than 2.2 million tonnes of edible food is wasted each year in Canada alone. In addition to economic costs (costing Canada an excess of $17 billion), food waste has substantial environmental impacts. This waste is due to many different events, the transport of food from farm to supermarket being number one (including the supermarket throwing away misshapen food), fish being caught and thrown back, produce being left in the field due to labour shortages, and consumers buying food and throwing away surplus, to name a few. Grocery stores on average throw away 43 billion pounds of food each year, and the average restaurant throws away 1.5% of their food daily (missing out on tax savings that could be earned from donations). A simple app solution to re-route the waste from restaurants and grocery stores may not provide a complete solution to this major issue, but it could be a steppingstone in the right direction. At the very least, providing awareness on these facts and statistics, and offering the information of what the food bank organizations are needing during different times of the year.
 
