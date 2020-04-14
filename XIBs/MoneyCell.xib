@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="134" id="KGk-i7-Jjw" customClass="MoneyCell" customModule="Give_Back" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="134"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="406" height="134"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HwI-4b-ihl" customClass="RoundedShadowView" customModule="Give_Back" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="390" height="118"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2mK-Hf-4hQ">
+                                <rect key="frame" x="8" y="8" width="102" height="102"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2mK-Hf-4hQ" secondAttribute="height" multiplier="1:1" id="0az-Oy-JxQ"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Lzn-RE-taD">
+                                <rect key="frame" x="118" y="8" width="264" height="102"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Donate Now" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joI-1d-wS2">
+                                        <rect key="frame" x="82.5" y="0.0" width="99.5" height="22.5"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRu-bM-Ut0">
+                                        <rect key="frame" x="104" y="22.5" width="56" height="79.5"/>
+                                        <state key="normal" title="Website">
+                                            <color key="titleColor" red="0.73146884919999999" green="0.34940002780000001" blue="0.81314766839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="websiteClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="aBh-5Y-8HY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2mK-Hf-4hQ" firstAttribute="leading" secondItem="HwI-4b-ihl" secondAttribute="leading" constant="8" id="8RR-EB-Trg"/>
+                            <constraint firstItem="Lzn-RE-taD" firstAttribute="leading" secondItem="2mK-Hf-4hQ" secondAttribute="trailing" constant="8" id="Bnq-dj-9hV"/>
+                            <constraint firstAttribute="bottom" secondItem="2mK-Hf-4hQ" secondAttribute="bottom" constant="8" id="Inx-Ag-fYo"/>
+                            <constraint firstAttribute="trailing" secondItem="Lzn-RE-taD" secondAttribute="trailing" constant="8" id="SpC-Cj-F4L"/>
+                            <constraint firstItem="Lzn-RE-taD" firstAttribute="top" secondItem="HwI-4b-ihl" secondAttribute="top" constant="8" id="ayO-Zf-FV9"/>
+                            <constraint firstItem="2mK-Hf-4hQ" firstAttribute="top" secondItem="HwI-4b-ihl" secondAttribute="top" constant="8" id="ggl-4z-C6O"/>
+                            <constraint firstAttribute="bottom" secondItem="Lzn-RE-taD" secondAttribute="bottom" constant="8" id="tiP-sO-ZJx"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="HwI-4b-ihl" secondAttribute="bottom" constant="8" id="B1Z-hI-Bvk"/>
+                    <constraint firstAttribute="trailing" secondItem="HwI-4b-ihl" secondAttribute="trailing" constant="8" id="KK0-3b-PHY"/>
+                    <constraint firstItem="HwI-4b-ihl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="lgA-q4-6sz"/>
+                    <constraint firstItem="HwI-4b-ihl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="rZm-J6-2bs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="orgImg" destination="2mK-Hf-4hQ" id="ZxV-x9-uBE"/>
+                <outlet property="wesiteButton" destination="oRu-bM-Ut0" id="H05-18-chf"/>
+            </connections>
+            <point key="canvasLocation" x="117.39130434782609" y="121.875"/>
+        </tableViewCell>
+    </objects>
+</document>
